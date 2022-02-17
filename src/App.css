@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  background-color: #FE792B;
+}
+
+.App-logo{
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+}
