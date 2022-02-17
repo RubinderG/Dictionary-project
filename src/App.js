@@ -1,5 +1,6 @@
 import logo from "./logo.png";
 import "./App.css";
+import Lexicon from "./Lexicon.js";
 
 export default function App() {
   return (
@@ -8,7 +9,10 @@ export default function App() {
         <header className="App">
           <img src={logo} className="App-logo" alt="Lexicon Logo" />
         </header>
-        <footer className="text-center">
+        <main>
+          <Lexicon />
+        </main>
+        <footer className="App-footer">
           This project was coded by{" "}
           <a
             href="https://www.linkedin.com/in/rubinder/"
