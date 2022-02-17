@@ -1,9 +1,13 @@
 .App {
   text-align: center;
-  background-color: #FE792B;
+  background-image: linear-gradient(to right, #fe7726, #ff8e4e);
 }
 
-.App-logo{
+.App-header {
+  margin: 30px 0;
+}
+
+.App-logo {
   max-width: 500px;
   display: block;
   margin: 0 auto;
