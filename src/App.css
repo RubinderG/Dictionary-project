@@ -1,11 +1,12 @@
 .App {
-  background-image: linear-gradient(to right, #fe7726, #ff8e4e);
   font-family: 'Open Sans', sans-serif;
   max-width: 960px;
   margin: 0 auto;
 }
 
- 
+ .background{
+   background-image: linear-gradient(to right, #fe7726, #ff8e4e);
+ }
 .Phonetic a{
   color:#ff8e4e;
 
