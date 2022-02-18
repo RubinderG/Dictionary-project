@@ -1,0 +1,13 @@
+.Meaning h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Meaning .example {
+  color: #FE8D4C;
+  font-style: italic;
+  margin-top: 10px;
+  font-family: 'Open Sans', sans-serif;
+}

@@ -10,7 +10,7 @@ export default function App() {
           <img src={logo} className="App-logo" alt="Lexicon Logo" />
         </header>
         <main>
-          <Lexicon />
+          <Lexicon defaultKeyword="lexicon" />
         </main>
         <footer className="App-footer">
           This project was coded by{" "}
@@ -30,6 +30,7 @@ export default function App() {
             open-sourced on GitHub
           </a>
         </footer>
+        <br />
       </div>
     </div>
   );
