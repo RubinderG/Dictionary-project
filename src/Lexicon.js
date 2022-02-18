@@ -13,7 +13,7 @@ export default function Dictionary() {
 
   function search(event) {
     event.preventDefault();
-    
+
     //documentation: https://dictionaryapi.dev/
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
@@ -25,10 +25,12 @@ export default function Dictionary() {
 
   return (
     <div className="Lexicon">
-      <form onSubmit={search}>
-        <input type="search" onChange={handleKeywordChange} />
-        <Results results={results} />
-      </form>
+      <section>
+        <form onSubmit={search}>
+          <input type="search" onChange={handleKeywordChange} />
+        </form>
+      </section>
+      <Results results={results} />
     </div>
   );
 }
